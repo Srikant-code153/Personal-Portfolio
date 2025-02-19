@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikant Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-trail"></div>
+    <div class="web-container"></div>
+    <div class="venom-background">
+        <div class="symbiote-layer"></div>
+        <div class="web-points"></div>
+    </div>
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-text">
+                <span>S</span>
+                <span>R</span>
+                <span>I</span>
+                <span>K</span>
+                <span>A</span>
+                <span>N</span>
+                <span>T</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+    <div class="theme-toggle animate-element">
+        <button id="darkModeToggle" class="dark-mode-toggle">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+    <div class="header animate-element">
+        <div class="logo-container">
+            <div class="logo">SRIKANT</div>
+            <div class="profile-pic">
+                <!-- Replace with your profile picture -->
+                <img src="Srikant.jpg" alt="Profile Pic">
+            </div>
+        </div>
+    </div>
+    <nav class="dock-nav animate-element">
+        <ul class="dock-menu">
+            <li class="dock-item active">
+                <i class="fas fa-home"></i>
+                <span class="tooltip" data-section="home">Home</span>
+            </li>
+            <li class="dock-item">
+                <i class="fas fa-user"></i>
+                <span class="tooltip" data-section="about">About Me</span>
+            </li>
+            <li class="dock-item">
+                <i class="fas fa-cogs"></i>
+                <span class="tooltip" data-section="skills">Skills</span>
+            </li>
+            <li class="dock-item">
+                <i class="fas fa-project-diagram"></i>
+                <span class="tooltip" data-section="projects">Projects</span>
+            </li>
+            <li class="dock-item">
+                <i class="fas fa-envelope"></i>
+                <span class="tooltip" data-section="contact">Contact Me</span>
+            </li>
+        </ul>
+    </nav>
+    <section id="home" class="hero-section animate-element">
+        <div class="hero-content">
+            <div class="text-container">
+                <p class="greeting">Welcome To My Portfolio,</p>
+                <div class="name-container">
+                    <h1 class="name">I am</h1>
+                    <h1 class="typing-name"></h1>
+                </div>
+                <p class="role">I'm a <span class="typing-role"></span></p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-header">
+                <!-- <a href="#about">About</a> -->
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-greeting">Hello! I'm Srikant Panigrahi</p>
+                    <p class="about-description">
+                        I am a passionate about Full Stack Development based in India, with expertise in creating
+                        innovative and efficient web solutions. With a strong foundation in both frontend
+                        and backend development, I strive to build seamless digital experiences.
+                        Bachelor of Business Administration in Information Technology graduate with a strong 
+                        foundation in business management, marketing, operations, and IT. Skilled in leveraging 
+                        technology to enhance business processes, improve efficiency, and drive digital transformation.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Srikant Panigrahi</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">srikant04panigrahi@outlook.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Pursuing:</span>
+                            <span class="info-value">B.B.A (IT)</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/srikant-panigrahi-22755b238/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="social-tooltip">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Srikant-code153" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span class="social-tooltip">GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/_hyperkid_official?utm_source=qr&igsh=MXIwN2Nwcjk5dGs4dA==" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span class="social-tooltip">Instagram</span>
+                        </a>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="Srikant Resume New 1.pdf" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3rd</span>
+                        <span class="stat-label">Graduation Year</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <div class="skills-container">
+            <div class="skills-header">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wind"></i>
+                            <span class="skill-name">Tailwind CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <div class="projects-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card animate-element">
+                    <div class="project-image">
+                        <div class="symbiote-overlay"></div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzq33o5yD6BKQSJLeAYctzXNbHCdh8j5XZA&s" alt="Project 1">
+                        <div class="project-overlay">
+                        <div class="project-links">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <div class="project-type">Personal Portfolio</div>
+                        </div>
+                        <p class="project-description">
+                            A modern, responsive portfolio website with dark/light theme and interactive animations. Built with a focus on user experience and clean design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card animate-element">
+                    <div class="project-image">
+                        <div class="symbiote-overlay"></div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuiK4E9_phdvkp3KaKNWeBVp7uKIWpmcS6Q&s" alt="Project 2">
+                        <div class="project-overlay">
+                        <div class="project-links">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3 class="project-title">Food Blog Website</h3>
+                            <div class="project-type">Personal Blog Website</div>
+                        </div>
+                        <p class="project-description">
+                            A blog website is a website that regularly updates its content with new posts. 
+                            Blogs can be personal or professional, and can cover a wide range of topics. 
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info animate-element">
+                    <h3 class="contact-title">Let's Contact</h3>
+                    <p class="contact-subtitle">Feel free to reach out for opportunities, or just a friendly chat about technology and development.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>srikant04panigrahi@outlook.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 7586906793</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Jaipur, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Srikant-code153" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span class="social-tooltip">GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/srikant-panigrahi-22755b238/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="social-tooltip">LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/_hyperkid_official?utm_source=qr&igsh=MXIwN2Nwcjk5dGs4dA==" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span class="social-tooltip">Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container animate-element">
+                    <form class="contact-form" novalidate>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder=" " required>
+                            <label for="name" class="form-label">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder=" " required>
+                            <label for="email" class="form-label">Your Email</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder=" " required>
+                            <label for="subject" class="form-label">Subject</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder=" " required></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                        </button>
+                        
+                        <div class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Background Elements -->
+        <div class="symbiote-layer"></div>
+        <div class="web-points"></div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Brand Section -->
+                <div class="footer-brand animate-element">
+                    <div class="footer-logo">
+                        <span class="logo">Srikant</span>
+                    </div>
+                    <p class="footer-description">
+                        Passionate about Full Stack Development Learning innovative web solutions and improving impactful digital experiences.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Srikant-code153" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/srikant-panigrahi-22755b238/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_hyperkid_official?utm_source=qr&igsh=MXIwN2Nwcjk5dGs4dA==" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links animate-element">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact animate-element">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>srikant04panigrahi@outlook.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7586906793</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jaipur, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025Srikant Panigrahi. All rights reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Elements -->
+        <div class="footer-symbiote-layer"></div>
+        <div class="footer-web-points"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
